@@ -1,0 +1,9 @@
+div{
+    padding: 10px;
+    border: 10px inset;
+    border-color: greenyellow #06b3f4 blue #e643e6;
+}
+p{
+    border:3px dotted red;
+    padding:5px;
+}
