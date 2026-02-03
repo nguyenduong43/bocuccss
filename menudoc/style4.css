@@ -10,7 +10,7 @@ a{
     position: relative;
     width: 100px;
     height: 30px;
-    border:1px solid black;
+    border:1px solid red;
     background-color: black;
     line-height: 30px;
     text-align: center;
