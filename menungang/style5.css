@@ -1,10 +1,10 @@
 #menu li{
      list-style: none;
-    border:1px solid;
+    /*border:1px solid;*/
     width:100px;
     height:30px;
     position: relative;
-    background-color: black;
+    /*background-color: black;*/
     line-height: 30px;
     text-align: center;
     float:left;
@@ -16,9 +16,13 @@ a{
 #menu li:hover{
     background-color: red;
 }
-#menu,#menu ul,#menu li{
+#menu ul{
+    width: 100%;
     margin: 0;
     padding: 0;
+    /*background-color: black;*/
+
+
 }
 #menu ul ul{
     position: absolute;
@@ -28,5 +32,15 @@ a{
 }
 #menu ul li:hover ul{
     visibility: visible;
+}
+#menu li{
+    /*background-color: black;*/
+}
+#menu{
+    height: 30px;
+    padding:0;
+    margin:0;
+    background-color: #000000;
+    border: 1px solid #CDCDCD;
 }
 
